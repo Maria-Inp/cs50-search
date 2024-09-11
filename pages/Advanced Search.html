@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="googleHome">
+        <a href="../index.html"><img src="../pic/googleLogoADV.png" alt="nothing"></a>
+    </div>
+    <div class="advSearch">
+        Advanced Search
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="container">
+        <form action="https://google.com/search">
+            <div class="row">
+                <div class="col-15">
+                    <label for="zero"><strong style="font-size: 15px;">Find pages with...</strong></label></label>
+                </div>
+                <div class="col-60"></div>
+                <div class="col-25"><label for="zero"><strong style="font-size: 15px;">To do this in the search box.</strong></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-15">
+                    <label for="one">all these words:</label>
+                </div>
+                <div class="col-60"><input class="inputText" type="text" id="one" name="as_q"></div>
+                <div class="col-25"><label for="one">Type the important words: <code style="color: black;">tri-colour rat terrier</code></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-15">
+                    <label for="two"> this exact word or phrase:</label>
+                </div>
+                <div class="col-60"><input class="inputText" type="text" id="two" name="as_epq"></div>
+                <div class="col-25"><label for="two">Put exact words in quotes: <code style="color: black;">"rat terrier"</code></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-15">
+                    <label for="three"> any of these words:</label>
+                </div>
+                <div class="col-60"><input class="inputText" type="text" id="three" name="as_oq"></div>
+                <div class="col-25"><label for="one">Type <code style="color: black;">OR</code> between all the words you want: <code style="color: black;">miniature OR standard</code></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-15">
+                    <label for="four"> none of these words:</label>
+                </div>
+                <div class="col-60"><input class="inputText" type="text" id="four" name="as_eq"></div>
+                <div class="col-25"><label for="one">Put a minus sign just before words that you don't want: <code style="color: black;">-rodent, -"Jack Russell"</code></label></div>
+            </div>
+
+            <div class="row buttonDiv">
+                <input class="button" type="submit" value="Advanced Search">
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

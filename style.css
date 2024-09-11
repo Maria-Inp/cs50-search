@@ -1,0 +1,194 @@
+body {
+  background-color: whitesmoke;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.linkDiv {
+  width: 100%;
+  height: 30px;
+  text-align: right;
+  padding-top: 10px;
+  justify-content: flex-end space-evenly;
+}
+
+.advancedSearchLink {
+  font-size: large;
+  color: #000;
+  padding-right: 10px;
+}
+
+.imgSearchLink,
+.googleLink {
+  font-size: large;
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logoDiv {
+  width: 100%;
+  height: 150px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.imagesFont {
+  display: block;
+  width: 335px;
+  font-size: large;
+  color: rgb(37, 108, 240);
+  margin-top: -30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.imgLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.searchBoxDiv {
+  text-align: center;
+  padding-right: 10px;
+}
+
+#searchIcon {
+  background-image: url("./pic/searchIcon.png");
+  background-repeat: no-repeat;
+  background-position: 3px 7px;
+  padding-left: 40px;
+  font-size: large;
+}
+
+.searchBox {
+  background-color: whitesmoke;
+  color: black;
+  width: 43%;
+  line-height: 45px;
+  border: 2px solid #dee3e7;
+  border-radius: 70px;
+}
+
+.submitDiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.submitBox {
+  background-color: #dee3e7;
+  color: #3c4043;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+/*Advaced Search style
+    */
+
+.googleHome {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.advSearch {
+  color: #d93025;
+  font-size: 20px;
+  padding-left: 2%;
+  margin-top: 3%;
+}
+
+.row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.inputText {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.container {
+  flex-direction: row;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.button {
+  background-color: #3780c4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.buttonDiv {
+  padding-top: 12px;
+  justify-content: right;
+  padding-right: 30%;
+}
+
+.col-15 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+.col-60 {
+  width: 50%;
+  margin-top: 6px;
+  display: block;
+}
+
+.col-25 {
+  width: 30%;
+  display: flex;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-60,
+  .col-15 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
